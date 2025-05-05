@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export',
+  basePath: '/abogadosfriedman', // your repo name here
+  trailingSlash: true,           // required for GitHub Pages
 };
 
 export default nextConfig;
